@@ -23,13 +23,8 @@ body {
 .wrapper .box-half {
 	overflow: hidden;
 }
-.wrapper.horizontal-rows .box-half {
+.wrapper .box-half {
 	flex-grow: 1;
-	flex-shrink: 0;
-	flex-basis: 50%;
-}
-.wrapper.vertical-rows .box-half {
-	flex-grow: 1;	
 	flex-shrink: 0;
 	flex-basis: 50%;
 }
